@@ -1,0 +1,493 @@
+html....
+<h2>Assignment -1,2,3</h2>
+<!DOCTYPE html>
+<html lang="en"
+    <head>
+       <title>Login form</title>
+       <link rel="stylesheet" href="style.css">
+       <h1>Akash Group of Institute</h1><br>
+       <h3>Enter Your Details</h3>
+       <form>
+        <label for="email"> Email ID:</label><br>
+        <input type="text" id="email" name="Email ID"><br>
+        <label for="pwd">password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+      <p class="forgot"><a href="#">Forgot password</a></p>
+      <button class="button button-block"/>Log in</button>
+       </form>
+    </head>
+     
+</html>
+
+css...
+
+form{
+     text-align: center;
+padding: 20px;
+text-size-adjust: 400;
+}
+
+h1,h3{
+     text-align: center;
+     -webkit-text-fill-color: rgb(190, 79, 79);
+     font: size 600,400;
+     font-family: 'Times New Roman', Times, serif;
+     margin: 0%;
+    $bold :600;
+    padding: auto;
+}
+
+.forgot{
+     text-align: center;
+}
+
+.button {
+     border: 0;
+}
+
+
+body {
+     background-color: lightgray;
+     background-image: url(https://www.akashinstitutions.com/New/img/agi-slide-2.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
+}
+
+.a{
+     text-align: center;
+}
+
+html....
+<h3>Assignment-4,5,6,7,8</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About College</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header class="header">
+        <h1>About cousre-list</h1>
+    </header>
+
+    <main>
+        <section class="cousre-list">
+            <div class="course">
+                <h2>MCA</h2>
+                <p>It is one of the computer application.
+                    where we r going to learn different languages.
+                </p>
+            </div>
+            <div class="course">
+                <h2>MBA</h2>
+                <p>It is one of the bussiness application.
+                    where we r going to learn About finanace,market etc.
+                </p>
+            </div>
+            <div class="course">
+                <h2>Nursing</h2>
+                <p>It is one of the course which is related to medical field.</p>
+            </div>
+    </section>
+  </body>
+</html>
+
+
+css....
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #fffdfd;
+    line-height: 1.6;
+    background-color: #462870;
+    align-content: center;
+    grid-template-rows:auto;
+    -ms-layout-grid-char: 10px;
+}
+
+
+.cousre-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row-reverse;
+
+}
+
+
+.course {
+    background-color: rgb(143, 185, 214);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.course h2 {
+    margin-bottom: 10px;
+    color: black;
+   
+}
+
+
+html,css...
+<h2>Assignment-9,10</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>library</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li>Student library</li>
+    <li>Staff library</li>
+    <li>Digital library </li>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1>About library</h1>
+    <p>It Provide reading material for independent study and reaserach to encourge life long learning among students to make tem more knowledgeable</p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Student library</h2>
+      <p>It specially made for the students.</p>
+      <h2>Staff library</h2>
+      <p>where staff can take the books and refer.it is only made for the staff purpose.</p>
+      <h2>digital library</h2>
+      <p>where we can use internet and we can store the database through online that may be image,text,documents etc that is accessed through internet</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>browse for more about library</p>
+</div>
+
+</body>
+</html>
+
+
+html,css....
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<p>Try to <b>scroll</b> down to know more about the institute.</p>
+
+<div class="sticky">AGI</div>
+
+<div style="padding-bottom:2000px">
+  <p>Akash group of institute is one most top college for the medical.</p>
+  <p>it is running MBBS from past 10 yrs</p>
+  
+</div>
+
+</body>
+</html>
+
+
+html,css
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s linear 1s;
+}
+
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>Using The transition Shorthand Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div></div>
+
+<p><b>Note:</b> The transition effect has a 1 second delay before starting.</p>
+
+</body>
+</html>
+
+html,css
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  transform: rotate(20deg);
+}
+
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  transform: skewY(20deg);
+}
+
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  transform: scaleY(1.5);
+}
+</style>
+</head>
+<body>
+
+<h1>The transform Property</h1>
+
+<h2>transform: rotate(20deg):</h2>
+<div class="a">AGI</div>
+<br>
+
+<h2>transform: skewY(20deg):</h2>
+<div class="b">AGI</div>
+<br>
+
+<h2>transform: scaleY(1.5):</h2>
+<div class="c">AGI</div>
+
+</body>
+</html>
+
+html,css
+
+<!DOCTYPE html> 
+<html lang="en"> 
+	
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<style> 
+	p::first-line{ 
+		color: red; 
+	} 
+	</style> 
+</head> 
+	
+<body>	 
+	<p> 
+		This is the first Pseudo element Class 
+		Some more text. And even more, and more, 
+		and more, and more, and more, and more, 
+		and more, and more, and more, and more, 
+		and more, and more. 
+	</p> 
+</body> 
+	
+</html>
+
+html,css....
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <style> 
+        input{ 
+            width:10%; 
+            padding: 12px; 
+        } 
+        
+        body{ 
+            background-color:rgb(160, 85, 195); 
+        } 
+    </style> 
+</head> 
+
+<body> 
+    <center> 
+        <form> 
+            <b>Are you happy with AGI</b><br> 
+            <input type="text" name="info"><br> 
+        </form> 
+    </center> 
+</body> 
+</html>
+
+html,css...
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #b763c4;
+}
+
+h2 {
+  border-bottom: 2px solid #b228b5;
+}
+
+.container {
+  color: #b228b5;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #b228b5;
+  border: 1px solid #b228b5;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>The Traditional Way</h1>
+
+<div class="container">
+  <h2>AGI</h2>
+  <p>Are you happy with the AGI .</p>
+ 
+  <p>
+    <button>Yes</button>
+    <button>No</button>
+  </p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
